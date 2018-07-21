@@ -10,4 +10,22 @@
 
 @implementation Jobs
 
+- (void)opportunitiesWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"opportunities.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)opportunitiesForSite:(NSString *)site WithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"opportunities/%@.%@", site, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)opportunityDescriptionForSite:(NSString *)site andId:(NSString *)uniqueId WithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"opportunities/%@/%@.%@", site, uniqueId, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end

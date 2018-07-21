@@ -10,4 +10,13 @@
 
 @interface Jobs : Endpoint
 
+/** This method returns a list of all opportunities available on campus */
+- (void)opportunitiesWithCompletion:(Handler)completion;
+
+/** This method returns a list of all opportunities available on campus */
+- (void)opportunitiesForSite:(NSString*)site WithCompletion:(Handler)completion;
+
+/** This method returns the job description for a given opportunity */
+- (void)opportunityDescriptionForSite:(NSString *)site andId:(NSString*)uniqueId WithCompletion:(Handler)completion;
+
 @end
