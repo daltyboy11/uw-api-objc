@@ -8,49 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EA3CD1B2103C73800C90823 /* UWAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD192103C73800C90823 /* UWAPI.h */; };
+		1EA3CD1B2103C73800C90823 /* UWAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD192103C73800C90823 /* UWAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD1C2103C73800C90823 /* UWAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD1A2103C73800C90823 /* UWAPI.m */; };
-		1EA3CD1F2103CAFC00C90823 /* Endpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD1D2103CAFC00C90823 /* Endpoint.h */; };
+		1EA3CD1F2103CAFC00C90823 /* Endpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD1D2103CAFC00C90823 /* Endpoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD202103CAFC00C90823 /* Endpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD1E2103CAFC00C90823 /* Endpoint.m */; };
-		1EA3CD232103CC8600C90823 /* FoodServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD212103CC8600C90823 /* FoodServices.h */; };
+		1EA3CD232103CC8600C90823 /* FoodServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD212103CC8600C90823 /* FoodServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD242103CC8600C90823 /* FoodServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD222103CC8600C90823 /* FoodServices.m */; };
-		1EA3CD272103CC9600C90823 /* Feds.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD252103CC9600C90823 /* Feds.h */; };
+		1EA3CD272103CC9600C90823 /* Feds.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD252103CC9600C90823 /* Feds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD282103CC9600C90823 /* Feds.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD262103CC9600C90823 /* Feds.m */; };
-		1EA3CD2B2103CCA300C90823 /* Course.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD292103CCA300C90823 /* Course.h */; };
+		1EA3CD2B2103CCA300C90823 /* Course.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD292103CCA300C90823 /* Course.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD2C2103CCA300C90823 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD2A2103CCA300C90823 /* Course.m */; };
-		1EA3CD302103CEED00C90823 /* Awards.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD2E2103CEED00C90823 /* Awards.h */; };
+		1EA3CD302103CEED00C90823 /* Awards.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD2E2103CEED00C90823 /* Awards.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD312103CEED00C90823 /* Awards.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD2F2103CEED00C90823 /* Awards.m */; };
-		1EA3CD342103CEFB00C90823 /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD322103CEFB00C90823 /* Events.h */; };
+		1EA3CD342103CEFB00C90823 /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD322103CEFB00C90823 /* Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD352103CEFB00C90823 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD332103CEFB00C90823 /* Events.m */; };
-		1EA3CD382103CF0600C90823 /* Blogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD362103CF0600C90823 /* Blogs.h */; };
+		1EA3CD382103CF0600C90823 /* Blogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD362103CF0600C90823 /* Blogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD392103CF0600C90823 /* Blogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD372103CF0600C90823 /* Blogs.m */; };
-		1EA3CD3C2103CF0E00C90823 /* News.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD3A2103CF0E00C90823 /* News.h */; };
+		1EA3CD3C2103CF0E00C90823 /* News.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD3A2103CF0E00C90823 /* News.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD3D2103CF0E00C90823 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD3B2103CF0E00C90823 /* News.m */; };
-		1EA3CD402103CF1D00C90823 /* Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD3E2103CF1D00C90823 /* Jobs.h */; };
+		1EA3CD402103CF1D00C90823 /* Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD3E2103CF1D00C90823 /* Jobs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD412103CF1D00C90823 /* Jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD3F2103CF1D00C90823 /* Jobs.m */; };
-		1EA3CD442103CF2700C90823 /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD422103CF2700C90823 /* Services.h */; };
+		1EA3CD442103CF2700C90823 /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD422103CF2700C90823 /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD452103CF2700C90823 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD432103CF2700C90823 /* Services.m */; };
-		1EA3CD482103CF3200C90823 /* Weather.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD462103CF3200C90823 /* Weather.h */; };
+		1EA3CD482103CF3200C90823 /* Weather.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD462103CF3200C90823 /* Weather.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD492103CF3200C90823 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD472103CF3200C90823 /* Weather.m */; };
-		1EA3CD4C2103CF4700C90823 /* Terms.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD4A2103CF4700C90823 /* Terms.h */; };
+		1EA3CD4C2103CF4700C90823 /* Terms.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD4A2103CF4700C90823 /* Terms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD4D2103CF4700C90823 /* Terms.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD4B2103CF4700C90823 /* Terms.m */; };
-		1EA3CD502103CF5000C90823 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD4E2103CF5000C90823 /* Resources.h */; };
+		1EA3CD502103CF5000C90823 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD4E2103CF5000C90823 /* Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD512103CF5000C90823 /* Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD4F2103CF5000C90823 /* Resources.m */; };
-		1EA3CD542103CF5800C90823 /* Codes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD522103CF5800C90823 /* Codes.h */; };
+		1EA3CD542103CF5800C90823 /* Codes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD522103CF5800C90823 /* Codes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD552103CF5800C90823 /* Codes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD532103CF5800C90823 /* Codes.m */; };
-		1EA3CD582103CF6B00C90823 /* Building.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD562103CF6B00C90823 /* Building.h */; };
+		1EA3CD582103CF6B00C90823 /* Building.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD562103CF6B00C90823 /* Building.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD592103CF6B00C90823 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD572103CF6B00C90823 /* Building.m */; };
-		1EA3CD5C2103CF7800C90823 /* PointsOfInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD5A2103CF7800C90823 /* PointsOfInterest.h */; };
+		1EA3CD5C2103CF7800C90823 /* PointsOfInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD5A2103CF7800C90823 /* PointsOfInterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD5D2103CF7800C90823 /* PointsOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD5B2103CF7800C90823 /* PointsOfInterest.m */; };
-		1EA3CD602103CF8E00C90823 /* Parking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD5E2103CF8E00C90823 /* Parking.h */; };
+		1EA3CD602103CF8E00C90823 /* Parking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD5E2103CF8E00C90823 /* Parking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD612103CF8E00C90823 /* Parking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD5F2103CF8E00C90823 /* Parking.m */; };
-		1EA3CD642103CF9700C90823 /* Transit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD622103CF9700C90823 /* Transit.h */; };
+		1EA3CD642103CF9700C90823 /* Transit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD622103CF9700C90823 /* Transit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD652103CF9700C90823 /* Transit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD632103CF9700C90823 /* Transit.m */; };
-		1EA3CD682103CFAF00C90823 /* PeopleDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD662103CFAF00C90823 /* PeopleDirectory.h */; };
+		1EA3CD682103CFAF00C90823 /* PeopleDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD662103CFAF00C90823 /* PeopleDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD692103CFAF00C90823 /* PeopleDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD672103CFAF00C90823 /* PeopleDirectory.m */; };
-		1EA3CD6C2103CFB800C90823 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD6A2103CFB800C90823 /* API.h */; };
+		1EA3CD6C2103CFB800C90823 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD6A2103CFB800C90823 /* API.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD6D2103CFB800C90823 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD6B2103CFB800C90823 /* API.m */; };
-		1EA3CD702103CFC400C90823 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD6E2103CFC400C90823 /* Server.h */; };
+		1EA3CD702103CFC400C90823 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD6E2103CFC400C90823 /* Server.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD712103CFC400C90823 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD6F2103CFC400C90823 /* Server.m */; };
 /* End PBXBuildFile section */
 
@@ -136,8 +136,8 @@
 			children = (
 				1EA3CD192103C73800C90823 /* UWAPI.h */,
 				1EA3CD1A2103C73800C90823 /* UWAPI.m */,
-				1EA3CD2D2103CEBA00C90823 /* Endpoints */,
 				1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */,
+				1EA3CD2D2103CEBA00C90823 /* Endpoints */,
 				1EA3CD122103C69700C90823 /* Info.plist */,
 			);
 			path = UWaterlooAPIObjc;
@@ -150,10 +150,10 @@
 				1EA3CD1E2103CAFC00C90823 /* Endpoint.m */,
 				1EA3CD212103CC8600C90823 /* FoodServices.h */,
 				1EA3CD222103CC8600C90823 /* FoodServices.m */,
-				1EA3CD292103CCA300C90823 /* Course.h */,
-				1EA3CD2A2103CCA300C90823 /* Course.m */,
 				1EA3CD252103CC9600C90823 /* Feds.h */,
 				1EA3CD262103CC9600C90823 /* Feds.m */,
+				1EA3CD292103CCA300C90823 /* Course.h */,
+				1EA3CD2A2103CCA300C90823 /* Course.m */,
 				1EA3CD2E2103CEED00C90823 /* Awards.h */,
 				1EA3CD2F2103CEED00C90823 /* Awards.m */,
 				1EA3CD322103CEFB00C90823 /* Events.h */,

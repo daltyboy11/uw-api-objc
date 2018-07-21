@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char UWaterlooAPIObjcVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UWaterlooAPIObjc/PublicHeader.h>
 
-
+#import <UWaterlooAPIObjc/UWAPI.h>
+#import <UWaterlooAPIObjc/FoodServices.h>
