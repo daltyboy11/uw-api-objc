@@ -10,4 +10,10 @@
 
 @implementation Weather
 
+- (void)currentWeatherWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"weather/current.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end
