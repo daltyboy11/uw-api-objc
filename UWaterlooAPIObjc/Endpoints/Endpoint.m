@@ -19,7 +19,13 @@ static NSString* baseURLString = @"https://api.uwaterloo.ca/v2/";
 
 - (instancetype)initWithApiKey:(NSString *)key
 {
+    return [self initWithApiKey:key andFormat:ResponseFormatJson];
+}
+
+- (instancetype) initWithApiKey:(NSString *)key andFormat:(ResponseFormat)format
+{
     if (self = [super init]) {
+        _responseFormat = format;
         _apiKey = key;
         _baseURL = [NSURL URLWithString:baseURLString];
         _session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
@@ -39,6 +45,21 @@ static NSString* baseURLString = @"https://api.uwaterloo.ca/v2/";
         }
         completion(formattedResponse);
     }] resume];
+}
+
+- (NSString*)stringFromFormat:(ResponseFormat)format
+{
+    switch (format) {
+        case ResponseFormatJson:
+            return @"json";
+            break;
+        case ResponseFormatXml:
+            return @"xml";
+            break;
+        default:
+            break;
+    }
+    return @"";
 }
 
 @end
