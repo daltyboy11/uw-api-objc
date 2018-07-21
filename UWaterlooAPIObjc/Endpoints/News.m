@@ -10,4 +10,22 @@
 
 @implementation News
 
+- (void)newsWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"news.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)newsForSite:(NSString *)site withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"news/%@.%@", site, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)newsForSite:(NSString *)site andId:(NSString *)uniqueId withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"news/%@/%@.%@", site, uniqueId, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end
