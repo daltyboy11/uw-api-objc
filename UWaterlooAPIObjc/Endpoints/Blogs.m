@@ -10,4 +10,16 @@
 
 @implementation Blogs
 
+- (void)blogsForSite:(NSString *)site withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"blogs/%@.%@", site, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)blogsForSite:(NSString *)site andId:(NSString *)uniqueId withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"blogs/%@/%@.%@", site, uniqueId, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end
