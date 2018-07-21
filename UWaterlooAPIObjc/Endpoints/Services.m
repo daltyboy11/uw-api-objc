@@ -10,4 +10,10 @@
 
 @implementation Services
 
+- (void)servicesForSite:(NSString *)site withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"services/%@.%@", site, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end

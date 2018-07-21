@@ -10,4 +10,7 @@
 
 @interface Services : Endpoint
 
+/** This method returns a sites associated services */
+- (void)servicesForSite:(NSString*)site withCompletion:(Handler)completion;
+
 @end
