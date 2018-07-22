@@ -10,4 +10,10 @@
 
 @interface Transit : Endpoint
 
+/** This method fetches list of transit agencies that GRT connects to */
+- (void)transitsWithCompletion:(Handler)completion;
+
+/** This method fetches list of all GRT bus stops */
+- (void)grtStopsWithCompletion:(Handler)completion;
+
 @end

@@ -10,4 +10,16 @@
 
 @implementation Transit
 
+- (void)transitsWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"transit/grt.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)grtStopsWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"transit/grt/stops.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end
