@@ -11,12 +11,13 @@
 #import "UWAPI.h"
 #import "Feds.h"
 
-@interface UWaterlooAPIObjcTests : XCTestCase
+@interface FedsTests : XCTestCase
 @property (strong) UWAPI* api;
 @end
 
-@implementation UWaterlooAPIObjcTests
+@implementation FedsTests
 
+// MARK: - Feds
 - (void)setUp {
     [super setUp];
     
@@ -29,8 +30,7 @@
     [super tearDown];
 }
 
-// MARK: - Feds
-
+// MARK: - Tests
 - (void)testFedsEvents
 {
     XCTestExpectation* expectation = [[XCTestExpectation alloc] initWithDescription:@"events"];

@@ -11,6 +11,9 @@
 		1E10E15C2104F48400DF7D2F /* UWaterlooAPIObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */; };
 		1E10E1642105305400DF7D2F /* FoodServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1632105305400DF7D2F /* FoodServicesTests.m */; };
 		1E10E166210536EA00DF7D2F /* CourseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E165210536EA00DF7D2F /* CourseTests.m */; };
+		1E10E16821054CEE00DF7D2F /* AwardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E16721054CEE00DF7D2F /* AwardsTests.m */; };
+		1E10E16A21054DFE00DF7D2F /* EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E16921054DFE00DF7D2F /* EventsTests.m */; };
+		1E10E16C2105500500DF7D2F /* BlogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E16B2105500500DF7D2F /* BlogsTests.m */; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,6 +79,9 @@
 		1E10E15B2104F48400DF7D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E10E1632105305400DF7D2F /* FoodServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodServicesTests.m; sourceTree = "<group>"; };
 		1E10E165210536EA00DF7D2F /* CourseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseTests.m; sourceTree = "<group>"; };
+		1E10E16721054CEE00DF7D2F /* AwardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwardsTests.m; sourceTree = "<group>"; };
+		1E10E16921054DFE00DF7D2F /* EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsTests.m; sourceTree = "<group>"; };
+		1E10E16B2105500500DF7D2F /* BlogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogsTests.m; sourceTree = "<group>"; };
 		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
 		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,9 @@
 		1E10E1582104F48400DF7D2F /* UWaterlooAPIObjcTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E10E16B2105500500DF7D2F /* BlogsTests.m */,
+				1E10E16921054DFE00DF7D2F /* EventsTests.m */,
+				1E10E16721054CEE00DF7D2F /* AwardsTests.m */,
 				1E10E1592104F48400DF7D2F /* FedsTests.m */,
 				1E10E1632105305400DF7D2F /* FoodServicesTests.m */,
 				1E10E165210536EA00DF7D2F /* CourseTests.m */,
@@ -369,7 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E10E15A2104F48400DF7D2F /* FedsTests.m in Sources */,
+				1E10E16821054CEE00DF7D2F /* AwardsTests.m in Sources */,
 				1E10E1642105305400DF7D2F /* FoodServicesTests.m in Sources */,
+				1E10E16C2105500500DF7D2F /* BlogsTests.m in Sources */,
+				1E10E16A21054DFE00DF7D2F /* EventsTests.m in Sources */,
 				1E10E166210536EA00DF7D2F /* CourseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

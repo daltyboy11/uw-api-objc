@@ -16,6 +16,7 @@
 
 @implementation FoodServicesTests
 
+// MARK: - Setup
 - (void)setUp {
     [super setUp];
     
@@ -28,6 +29,7 @@
     [super tearDown];
 }
 
+// MARK: - Tests
 - (void)testMenu
 {
     XCTestExpectation* expectation = [[XCTestExpectation alloc] initWithDescription:@"menu"];

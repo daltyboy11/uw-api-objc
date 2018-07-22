@@ -16,6 +16,7 @@
 
 @implementation CourseTests
 
+// MARK: - Setup
 - (void)setUp {
     [super setUp];
     
@@ -28,6 +29,7 @@
     [super tearDown];
 }
 
+// MARK: - Tests
 - (void)testCourses
 {
     XCTestExpectation* expectation = [[XCTestExpectation alloc] initWithDescription:@""];
