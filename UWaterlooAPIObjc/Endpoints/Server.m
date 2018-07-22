@@ -10,4 +10,16 @@
 
 @implementation Server
 
+- (void)timeWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"server/time.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
+- (void)errorCodesWithCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"server/codes.%@", [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end

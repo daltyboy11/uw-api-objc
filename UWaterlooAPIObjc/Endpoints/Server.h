@@ -10,4 +10,10 @@
 
 @interface Server : Endpoint
 
+/** This method fetches time information about the server */
+- (void)timeWithCompletion:(Handler)completion;
+
+/** This method fetches a list of all possible API error codes */
+- (void)errorCodesWithCompletion:(Handler)completion;
+
 @end
