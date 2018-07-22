@@ -42,8 +42,14 @@ static NSString* baseURLString = @"https://api.uwaterloo.ca/v2/";
         NSError* serializationError;
         if (data != nil) {
             formattedResponse = [NSJSONSerialization JSONObjectWithData:data options:0 error:&serializationError];
+            if (serializationError != nil) {
+                completion(nil, serializationError);
+            } else {
+                completion(formattedResponse, nil);
+            }
+        } else {
+            completion(nil, error);
         }
-        completion(formattedResponse);
     }] resume];
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E10E15A2104F48400DF7D2F /* FedsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1592104F48400DF7D2F /* FedsTests.m */; };
+		1E10E15C2104F48400DF7D2F /* UWaterlooAPIObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */; };
+		1E10E1642105305400DF7D2F /* FoodServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1632105305400DF7D2F /* FoodServicesTests.m */; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +59,21 @@
 		1EA3CD712103CFC400C90823 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD6F2103CFC400C90823 /* Server.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1E10E15D2104F48400DF7D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA3CD052103C69600C90823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA3CD0D2103C69600C90823;
+			remoteInfo = UWaterlooAPIObjc;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1E10E1572104F48400DF7D2F /* UWaterlooAPIObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWaterlooAPIObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E10E1592104F48400DF7D2F /* FedsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FedsTests.m; sourceTree = "<group>"; };
+		1E10E15B2104F48400DF7D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E10E1632105305400DF7D2F /* FoodServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodServicesTests.m; sourceTree = "<group>"; };
 		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
 		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +126,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1E10E1542104F48400DF7D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E10E15C2104F48400DF7D2F /* UWaterlooAPIObjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EA3CD0A2103C69600C90823 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,10 +144,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E10E1582104F48400DF7D2F /* UWaterlooAPIObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E10E1592104F48400DF7D2F /* FedsTests.m */,
+				1E10E1632105305400DF7D2F /* FoodServicesTests.m */,
+				1E10E15B2104F48400DF7D2F /* Info.plist */,
+			);
+			path = UWaterlooAPIObjcTests;
+			sourceTree = "<group>";
+		};
 		1EA3CD042103C69600C90823 = {
 			isa = PBXGroup;
 			children = (
 				1EA3CD102103C69600C90823 /* UWaterlooAPIObjc */,
+				1E10E1582104F48400DF7D2F /* UWaterlooAPIObjcTests */,
 				1EA3CD0F2103C69600C90823 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */,
+				1E10E1572104F48400DF7D2F /* UWaterlooAPIObjcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,6 +272,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1E10E1562104F48400DF7D2F /* UWaterlooAPIObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E10E1612104F48400DF7D2F /* Build configuration list for PBXNativeTarget "UWaterlooAPIObjcTests" */;
+			buildPhases = (
+				1E10E1532104F48400DF7D2F /* Sources */,
+				1E10E1542104F48400DF7D2F /* Frameworks */,
+				1E10E1552104F48400DF7D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E10E15E2104F48400DF7D2F /* PBXTargetDependency */,
+			);
+			name = UWaterlooAPIObjcTests;
+			productName = UWaterlooAPIObjcTests;
+			productReference = 1E10E1572104F48400DF7D2F /* UWaterlooAPIObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1EA3CD0D2103C69600C90823 /* UWaterlooAPIObjc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EA3CD162103C69700C90823 /* Build configuration list for PBXNativeTarget "UWaterlooAPIObjc" */;
@@ -262,6 +317,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Dalton Sweeney";
 				TargetAttributes = {
+					1E10E1562104F48400DF7D2F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					1EA3CD0D2103C69600C90823 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -280,11 +338,19 @@
 			projectRoot = "";
 			targets = (
 				1EA3CD0D2103C69600C90823 /* UWaterlooAPIObjc */,
+				1E10E1562104F48400DF7D2F /* UWaterlooAPIObjcTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1E10E1552104F48400DF7D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EA3CD0C2103C69600C90823 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +361,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E10E1532104F48400DF7D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E10E15A2104F48400DF7D2F /* FedsTests.m in Sources */,
+				1E10E1642105305400DF7D2F /* FoodServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EA3CD092103C69600C90823 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,7 +402,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1E10E15E2104F48400DF7D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA3CD0D2103C69600C90823 /* UWaterlooAPIObjc */;
+			targetProxy = 1E10E15D2104F48400DF7D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1E10E15F2104F48400DF7D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4EJWWN798;
+				INFOPLIST_FILE = UWaterlooAPIObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UWaterlooAPIObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E10E1602104F48400DF7D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4EJWWN798;
+				INFOPLIST_FILE = UWaterlooAPIObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UWaterlooAPIObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1EA3CD142103C69700C90823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -495,6 +612,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E10E1612104F48400DF7D2F /* Build configuration list for PBXNativeTarget "UWaterlooAPIObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E10E15F2104F48400DF7D2F /* Debug */,
+				1E10E1602104F48400DF7D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1EA3CD082103C69600C90823 /* Build configuration list for PBXProject "UWaterlooAPIObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

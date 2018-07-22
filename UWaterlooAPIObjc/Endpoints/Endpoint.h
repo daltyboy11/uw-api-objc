@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^Handler)(NSDictionary*);
+typedef void(^Handler)(NSDictionary* _Nullable, NSError* _Nullable);
 
 typedef NS_ENUM(NSUInteger, ResponseFormat) {
     ResponseFormatJson,
