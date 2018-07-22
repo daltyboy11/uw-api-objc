@@ -26,6 +26,7 @@
 #import "Parking.h"
 #import "Transit.h"
 #import "PeopleDirectory.h"
+#import "Wireless.h"
 #import "API.h"
 #import "Server.h"
 
@@ -53,6 +54,7 @@
         _parking = [[Parking alloc] initWithApiKey:key];
         _transit = [[Transit alloc] initWithApiKey:key];
         _peopleDirectory = [[PeopleDirectory alloc] initWithApiKey:key];
+        _wireless = [[Wireless alloc] initWithApiKey:key];
         _api = [[API alloc] initWithApiKey:key];
         _server = [[Server alloc] initWithApiKey:key];
     }

@@ -26,6 +26,7 @@
 @class Parking;
 @class Transit;
 @class PeopleDirectory;
+@class Wireless;
 @class API;
 @class Server;
 
@@ -55,6 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) Parking*                  parking;
 @property (strong, nonatomic) Transit*                  transit;
 @property (strong, nonatomic) PeopleDirectory*          peopleDirectory;
+@property (strong, nonatomic) Wireless*                 wireless;
 @property (strong, nonatomic) API*                      api;
 @property (strong, nonatomic) Server*                   server;
 

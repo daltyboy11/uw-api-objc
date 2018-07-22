@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD1B2103C73800C90823 /* UWAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD192103C73800C90823 /* UWAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA3CD1C2103C73800C90823 /* UWAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3CD1A2103C73800C90823 /* UWAPI.m */; };
@@ -55,6 +57,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
+		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWaterlooAPIObjc.h; sourceTree = "<group>"; };
 		1EA3CD122103C69700C90823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 				1EA3CD6B2103CFB800C90823 /* API.m */,
 				1EA3CD6E2103CFC400C90823 /* Server.h */,
 				1EA3CD6F2103CFC400C90823 /* Server.m */,
+				1E272EC42104EE95006156C3 /* Wireless.h */,
+				1E272EC52104EE95006156C3 /* Wireless.m */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 				1EA3CD6C2103CFB800C90823 /* API.h in Headers */,
 				1EA3CD4C2103CF4700C90823 /* Terms.h in Headers */,
 				1EA3CD3C2103CF0E00C90823 /* News.h in Headers */,
+				1E272EC62104EE95006156C3 /* Wireless.h in Headers */,
 				1EA3CD542103CF5800C90823 /* Codes.h in Headers */,
 				1EA3CD702103CFC400C90823 /* Server.h in Headers */,
 				1EA3CD5C2103CF7800C90823 /* PointsOfInterest.h in Headers */,
@@ -310,6 +317,7 @@
 				1EA3CD612103CF8E00C90823 /* Parking.m in Sources */,
 				1EA3CD282103CC9600C90823 /* Feds.m in Sources */,
 				1EA3CD5D2103CF7800C90823 /* PointsOfInterest.m in Sources */,
+				1E272EC72104EE95006156C3 /* Wireless.m in Sources */,
 				1EA3CD2C2103CCA300C90823 /* Course.m in Sources */,
 				1EA3CD312103CEED00C90823 /* Awards.m in Sources */,
 				1EA3CD712103CFC400C90823 /* Server.m in Sources */,
