@@ -12,19 +12,19 @@
 
 - (void)eventsWithCompletion:(Handler)completion
 {
-    NSString* path = @"feds/events.json";
+    NSString* path = [NSString stringWithFormat:@"feds/events.%@", [self stringFromFormat:self.responseFormat]];;
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)eventsForId:(NSUInteger)eventId withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"feds/events/%lu.json", eventId];
+    NSString* path = [NSString stringWithFormat:@"feds/events/%lu.%@", eventId, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)locationsWithCompletion:(Handler)completion
 {
-    NSString* path = @"feds/locations.json";
+    NSString* path = [NSString stringWithFormat:@"feds/locations.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 

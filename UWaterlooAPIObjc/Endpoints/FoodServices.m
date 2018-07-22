@@ -12,67 +12,67 @@
 
 - (void)menu:(Handler)completion
 {
-    NSString* path = @"foodservices/menu.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/menu.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)menuForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/menu.json", year, week];
+    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/menu.%@", year, week, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)notes:(Handler)completion
 {
-    NSString* path = @"foodservices/notes.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/notes.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)notesForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/notes.json", year, week];
+    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/notes.%@", year, week, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)diets:(Handler)completion
 {
-    NSString* path = @"foodservices/diets.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/diets.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)outlets:(Handler)completion
 {
-    NSString* path = @"foodservices/outlets.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/outlets.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)locations:(Handler)completion
 {
-    NSString* path = @"foodservices/locations.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/locations.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)watcard:(Handler)completion
 {
-    NSString* path = @"foodservices/watcard.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/watcard.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)announcements:(Handler)completion
 {
-    NSString* path = @"foodservices/announcements.json";
+    NSString* path = [NSString stringWithFormat:@"foodservices/announcements.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)announcementsForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/announcements.json", year, week];
+    NSString* path = [NSString stringWithFormat:@"foodservices/%lu/%lu/announcements.%@", year, week, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)productsForId:(NSUInteger)productId withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"foodservices/products/%lu.json", productId];
+    NSString* path = [NSString stringWithFormat:@"foodservices/products/%lu.%@", productId, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 

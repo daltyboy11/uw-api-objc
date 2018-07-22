@@ -12,13 +12,13 @@
 
 - (void)undergraduateAwardsWithCompletion:(Handler)completion
 {
-    NSString* path = @"awards/undergraduate.json";
+    NSString* path = [NSString stringWithFormat:@"awards/undergraduate.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)graduateAwardsWithCompletion:(Handler)completion
 {
-    NSString* path = @"awards/graduate.json";
+    NSString* path = [NSString stringWithFormat:@"awards/graduate.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 

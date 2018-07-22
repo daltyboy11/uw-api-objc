@@ -12,25 +12,25 @@
 
 - (void)coursesWithCompletion:(Handler)completion
 {
-    NSString* path = @"courses.json";
+    NSString* path = [NSString stringWithFormat:@"courses.%@", [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)coursesForSubject:(NSString *)subject withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@.json", subject];
+    NSString* path = [NSString stringWithFormat:@"courses/%@.%@", subject, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)courseForCourseId:(NSString*)courseId withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@.json", courseId];
+    NSString* path = [NSString stringWithFormat:@"courses/%@.%@", courseId, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
 - (void)courseScheduleForClassNumber:(NSUInteger)classNumber withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%lu/schedule.json", classNumber];
+    NSString* path = [NSString stringWithFormat:@"courses/%lu/schedule.%@", classNumber, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
@@ -38,7 +38,7 @@
                       andCatalogNumber:(NSString *)catalogNumber
                         withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@/%@.json", subject, catalogNumber];
+    NSString* path = [NSString stringWithFormat:@"courses/%@/%@.%@", subject, catalogNumber, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
@@ -46,7 +46,7 @@
                 andCatalogNumber:(NSString *)catalogNumber
                   withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/schedule.json", subject, catalogNumber];
+    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/schedule.%@", subject, catalogNumber, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
@@ -54,7 +54,7 @@
                      andCatalogNumber:(NSString *)catalogNumber
                        withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/prerequisites.json", subject, catalogNumber];
+    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/prerequisites.%@", subject, catalogNumber, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
@@ -62,7 +62,7 @@
                     andCatalogNumber:(NSString *)catalogNumber
                       withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/examschedule.json", subject, catalogNumber];
+    NSString* path = [NSString stringWithFormat:@"courses/%@/%@/examschedule.%@", subject, catalogNumber, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
