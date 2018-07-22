@@ -10,4 +10,7 @@
 
 @interface PeopleDirectory : Endpoint
 
+/** This method fetches user information for a given WatIAM ID */
+- (void)userForUserId:(NSString*)userId withCompletion:(Handler)completion;
+
 @end

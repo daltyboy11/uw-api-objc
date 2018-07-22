@@ -10,4 +10,10 @@
 
 @implementation PeopleDirectory
 
+- (void)userForUserId:(NSString *)userId withCompletion:(Handler)completion
+{
+    NSString* path = [NSString stringWithFormat:@"directory/%@.%@", userId, [self stringFromFormat:self.responseFormat]];
+    [self getAtPath:path withCompletion:completion];
+}
+
 @end
