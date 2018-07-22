@@ -10,16 +10,16 @@
 
 @interface Resources : Endpoint
 
-/** This method returns a list of all the tutors available to help for a course for a given term */
+/** This method fetches a list of all the tutors available to help for a course for a given term */
 - (void)tutorsWithCompletion:(Handler)completion;
 
-/** This method returns a list of campus employer infosessions */
+/** This method fetches a list of campus employer infosessions */
 - (void)coopInfoSessionsWithCompletion:(Handler)completion;
 
-/** This method returns a list of geese nests during their spring mating season */
+/** This method fetches a list of geese nests during their spring mating season */
 - (void)geeseNestsWithCompletion:(Handler)completion;
 
-/** This method returns a list of all UW employees that earn more than $100k/yr */
+/** This method fetches a list of all UW employees that earn more than $100k/yr */
 - (void)sunshineListWithCompletion:(Handler)completion;
 
 @end
