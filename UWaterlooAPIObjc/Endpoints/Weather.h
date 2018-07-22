@@ -10,7 +10,7 @@
 
 @interface Weather : Endpoint
 
-/** This method returns the current weather details from the University of Waterloo Weather Station. */
+/** This method fetches the current weather details from the University of Waterloo Weather Station. */
 - (void)currentWeatherWithCompletion:(Handler)completion;
 
 @end

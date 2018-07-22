@@ -10,4 +10,12 @@
 
 @interface Resources : Endpoint
 
+- (void)tutorsWithCompletion:(Handler)completion;
+
+- (void)coopInfoSessionsWithCompletion:(Handler)completion;
+
+- (void)geeseNestsWithCompletion:(Handler)completion;
+
+- (void)sunshineListWithCompletion:(Handler)completion;
+
 @end

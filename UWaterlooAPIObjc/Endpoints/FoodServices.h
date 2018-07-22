@@ -10,37 +10,37 @@
 
 @interface FoodServices : Endpoint
 
-/** This method returns current week's food menu. */
+/** This method fetches current week's food menu. */
 - (void)menu:(Handler)completion;
 
-/** This method returns the given week and year's food menu. */
+/** This method fetches the given week and year's food menu. */
 - (void)menuForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion;
 
-/** This method returns additional notes regarding food served in the current week. */
+/** This method fetches additional notes regarding food served in the current week. */
 - (void)notes:(Handler)completion;
 
-/** This method returns additional notes regarding food served in the week specified. */
+/** This method fetches additional notes regarding food served in the week specified. */
 - (void)notesForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion;
 
-/** This method returns a list of all diets. */
+/** This method fetches a list of all diets. */
 - (void)diets:(Handler)completion;
 
-/** This method returns a list of all outlets and their unique IDs, names and breakfast/lunch/dinner meal service indicators. */
+/** This method fetches a list of all outlets and their unique IDs, names and breakfast/lunch/dinner meal service indicators. */
 - (void)outlets:(Handler)completion;
 
-/** This method returns a list of all outlets and their operating hour data. */
+/** This method fetches a list of all outlets and their operating hour data. */
 - (void)locations:(Handler)completion;
 
-/** This method returns a list of all WatCard locations according to Food Services. */
+/** This method fetches a list of all WatCard locations according to Food Services. */
 - (void)watcard:(Handler)completion;
 
-/** This method returns additional announcements regarding food served in the current week. */
+/** This method fetches additional announcements regarding food served in the current week. */
 - (void)announcements:(Handler)completion;
 
-/** This method returns additional announcements regarding food served in the week specified. */
+/** This method fetches additional announcements regarding food served in the week specified. */
 - (void)announcementsForYear:(NSUInteger)year andWeek:(NSUInteger)week withCompletion:(Handler)completion;
 
-/** This method returns a product's nutritional information. */
+/** This method fetches a product's nutritional information. */
 - (void)productsForId:(NSUInteger)productId withCompletion:(Handler)completion;
 
 @end

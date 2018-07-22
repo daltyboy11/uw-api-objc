@@ -10,13 +10,13 @@
 
 @interface News : Endpoint
 
-/** This method returns a list of the freshest (most recently updated) 100 University of Waterloo news items as crawled from all University WCMS sites */
+/** This method fetches a list of the freshest (most recently updated) 100 University of Waterloo news items as crawled from all University WCMS sites */
 - (void)newsWithCompletion:(Handler)completion;
 
-/** This method returns a list of the upcoming site's news given a site slug */
+/** This method fetches a list of the upcoming site's news given a site slug */
 - (void)newsForSite:(NSString*)site withCompletion:(Handler)completion;
 
-/** This method returns a specific news item's information given a site's slug and id */
+/** This method fetches a specific news item's information given a site's slug and id */
 - (void)newsForSite:(NSString *)site andId:(NSString*)uniqueId withCompletion:(Handler)completion;
 
 @end

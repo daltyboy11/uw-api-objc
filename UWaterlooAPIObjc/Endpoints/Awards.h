@@ -10,10 +10,10 @@
 
 @interface Awards : Endpoint
 
-/** his method returns a a list of all undergraduate awards, bursaries and scholarships available to students */
+/** This method fetches a a list of all undergraduate awards, bursaries and scholarships available to students */
 - (void)undergraduateAwardsWithCompletion:(Handler)completion;
 
-/** his method returns a a list of all graduate awards, bursaries and scholarships available to students */
+/** This method fetches a a list of all graduate awards, bursaries and scholarships available to students */
 - (void)graduateAwardsWithCompletion:(Handler)completion;
 
 @end

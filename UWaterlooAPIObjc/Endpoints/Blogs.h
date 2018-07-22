@@ -10,10 +10,10 @@
 
 @interface Blogs : Endpoint
 
-/** This method returns a list of all blog posts for a given site */
+/** This method fetches a list of all blog posts for a given site */
 - (void)blogsForSite:(NSString*)site withCompletion:(Handler)completion;
 
-/** This method returns a blog posts details for a post id */
+/** This method fetches a blog posts details for a post id */
 - (void)blogsForSite:(NSString *)site andId:(NSString*)uniqueId withCompletion:(Handler)completion;
 
 @end

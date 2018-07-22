@@ -10,13 +10,13 @@
 
 @interface Feds : Endpoint
 
-/** This method returns a list of the upcoming events from the FEDS database. */
+/** This method fetches a list of the upcoming events from the FEDS database. */
 - (void)eventsWithCompletion:(Handler)completion;
 
-/** This method returns a specific event's information given the unique id. */
+/** This method fetches a specific event's information given the unique id. */
 - (void)eventsForId:(NSUInteger)eventId withCompletion:(Handler)completion;
 
-/** This method returns a list of all outlets and their operating hour data. */
+/** This method fetches a list of all outlets and their operating hour data. */
 - (void)locationsWithCompletion:(Handler)completion;
 
 @end
