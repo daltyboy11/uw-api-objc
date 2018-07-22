@@ -18,7 +18,7 @@
 
 - (void)usageForBuildingCode:(NSString *)code withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"wireless/usage/%@.%@", [self stringFromFormat:self.responseFormat]];
+    NSString* path = [NSString stringWithFormat:@"wireless/usage/%@.%@", code, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
@@ -48,7 +48,7 @@
 
 - (void)historicalUsageForBuildingCode:(NSString *)code withCompletion:(Handler)completion
 {
-    NSString* path = [NSString stringWithFormat:@"wireless/historical/usage/%@.%@", [self stringFromFormat:self.responseFormat]];
+    NSString* path = [NSString stringWithFormat:@"wireless/historical/usage/%@.%@", code, [self stringFromFormat:self.responseFormat]];
     [self getAtPath:path withCompletion:completion];
 }
 
