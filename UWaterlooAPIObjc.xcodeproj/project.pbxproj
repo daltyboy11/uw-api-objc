@@ -29,7 +29,7 @@
 		1E10E1862106C49E00DF7D2F /* WirelessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1852106C49E00DF7D2F /* WirelessTests.m */; };
 		1E10E1882106C66100DF7D2F /* APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1872106C66100DF7D2F /* APITests.m */; };
 		1E10E18A2106C80E00DF7D2F /* ServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1892106C80E00DF7D2F /* ServerTests.m */; };
-		1E10E18E2106CAB300DF7D2F /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E10E18D2106CAB300DF7D2F /* Shared.h */; };
+		1E10E18E2106CAB300DF7D2F /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E10E18D2106CAB300DF7D2F /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
