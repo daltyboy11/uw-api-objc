@@ -19,6 +19,7 @@
 		1E10E1722105F9F500DF7D2F /* ServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1712105F9F500DF7D2F /* ServicesTests.m */; };
 		1E10E1742106AE2200DF7D2F /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1732106AE2200DF7D2F /* WeatherTests.m */; };
 		1E10E1762106B0BD00DF7D2F /* TermsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1752106B0BD00DF7D2F /* TermsTests.m */; };
+		1E10E1782106B3DD00DF7D2F /* ResourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,6 +93,7 @@
 		1E10E1712105F9F500DF7D2F /* ServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTests.m; sourceTree = "<group>"; };
 		1E10E1732106AE2200DF7D2F /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
 		1E10E1752106B0BD00DF7D2F /* TermsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsTests.m; sourceTree = "<group>"; };
+		1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourcesTests.m; sourceTree = "<group>"; };
 		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
 		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +167,7 @@
 		1E10E1582104F48400DF7D2F /* UWaterlooAPIObjcTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */,
 				1E10E1752106B0BD00DF7D2F /* TermsTests.m */,
 				1E10E1732106AE2200DF7D2F /* WeatherTests.m */,
 				1E10E1712105F9F500DF7D2F /* ServicesTests.m */,
@@ -401,6 +404,7 @@
 				1E10E16C2105500500DF7D2F /* BlogsTests.m in Sources */,
 				1E10E1742106AE2200DF7D2F /* WeatherTests.m in Sources */,
 				1E10E16A21054DFE00DF7D2F /* EventsTests.m in Sources */,
+				1E10E1782106B3DD00DF7D2F /* ResourcesTests.m in Sources */,
 				1E10E166210536EA00DF7D2F /* CourseTests.m in Sources */,
 				1E10E1702105F85800DF7D2F /* JobsTests.m in Sources */,
 			);

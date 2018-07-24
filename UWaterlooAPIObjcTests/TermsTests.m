@@ -36,7 +36,6 @@
     [[_api terms] termsListWithCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -48,7 +47,6 @@
     [[_api terms] coursesForTerm:@"1161" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -60,7 +58,6 @@
     [[_api terms] examScheduleForTerm:@"1161" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -72,7 +69,6 @@
     [[_api terms] courseSchedulesForTerm:@"1161" andSubject:@"CS" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -84,7 +80,6 @@
     [[_api terms] courseScheduleForTerm:@"1139" andSubject:@"CS" andCatalogNumber:@"115" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -96,7 +91,6 @@
     [[_api terms] enrollmentForTerm:@"1161" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -108,7 +102,6 @@
     [[_api terms] enrollmentForTerm:@"1159" andSubject:@"ITAL" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -120,7 +113,6 @@
     [[_api terms] importantDatesForTerm:@"1161" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
@@ -132,7 +124,6 @@
     [[_api terms] infoSessionsForTerm:@"1161" withCompletion:^(NSDictionary * _Nullable dict, NSError * _Nullable error) {
         XCTAssertNotNil(dict);
         XCTAssertNil(error);
-        NSLog(@"%@", dict);
         [expectation fulfill];
     }];
     [self waitForExpectations:@[expectation] timeout:1.0];
