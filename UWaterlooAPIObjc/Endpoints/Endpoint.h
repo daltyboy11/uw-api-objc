@@ -7,13 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Shared.h"
 
 typedef void(^Handler)(NSDictionary* _Nullable, NSError* _Nullable);
-
-typedef NS_ENUM(NSUInteger, ResponseFormat) {
-    ResponseFormatJson,
-    ResponseFormatXml
-};
 
 @interface Endpoint : NSObject
 

@@ -32,31 +32,43 @@
 
 @implementation UWAPI
 
-- (instancetype)initWithApiKey:(NSString *)key
+// Don't let client use the NSObject initializer
+- (instancetype)init
+{
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
+}
+
+- (instancetype)initWithApiKey:(NSString * _Nonnull)key
+{
+    return [self initWithApiKey:key andFormat:ResponseFormatJson];
+}
+
+- (instancetype)initWithApiKey:(NSString * _Nonnull)key andFormat:(ResponseFormat)format
 {
     if (self = [super init]) {
         _apiKey = key;
-        _foodServices = [[FoodServices alloc] initWithApiKey:key];
-        _feds = [[Feds alloc] initWithApiKey:key];
-        _course = [[Course alloc] initWithApiKey:key];
-        _awards = [[Awards alloc] initWithApiKey:key];
-        _events = [[Events alloc] initWithApiKey:key];
-        _blogs = [[Blogs alloc] initWithApiKey:key];
-        _news = [[News alloc] initWithApiKey:key];
-        _jobs = [[Jobs alloc] initWithApiKey:key];
-        _services = [[Services alloc] initWithApiKey:key];
-        _weather = [[Weather alloc] initWithApiKey:key];
-        _terms = [[Terms alloc] initWithApiKey:key];
-        _resources = [[Resources alloc] initWithApiKey:key];
-        _codes = [[Codes alloc] initWithApiKey:key];
-        _buildling = [[Building alloc] initWithApiKey:key];
-        _pointsOfInterest = [[PointsOfInterest alloc] initWithApiKey:key];
-        _parking = [[Parking alloc] initWithApiKey:key];
-        _transit = [[Transit alloc] initWithApiKey:key];
-        _peopleDirectory = [[PeopleDirectory alloc] initWithApiKey:key];
-        _wireless = [[Wireless alloc] initWithApiKey:key];
-        _api = [[API alloc] initWithApiKey:key];
-        _server = [[Server alloc] initWithApiKey:key];
+        _foodServices = [[FoodServices alloc] initWithApiKey:key andFormat:format];
+        _feds = [[Feds alloc] initWithApiKey:key andFormat:format];
+        _course = [[Course alloc] initWithApiKey:key andFormat:format];
+        _awards = [[Awards alloc] initWithApiKey:key andFormat:format];
+        _events = [[Events alloc] initWithApiKey:key andFormat:format];
+        _blogs = [[Blogs alloc] initWithApiKey:key andFormat:format];
+        _news = [[News alloc] initWithApiKey:key andFormat:format];
+        _jobs = [[Jobs alloc] initWithApiKey:key andFormat:format];
+        _services = [[Services alloc] initWithApiKey:key andFormat:format];
+        _weather = [[Weather alloc] initWithApiKey:key andFormat:format];
+        _terms = [[Terms alloc] initWithApiKey:key andFormat:format];
+        _resources = [[Resources alloc] initWithApiKey:key andFormat:format];
+        _codes = [[Codes alloc] initWithApiKey:key andFormat:format];
+        _buildling = [[Building alloc] initWithApiKey:key andFormat:format];
+        _pointsOfInterest = [[PointsOfInterest alloc] initWithApiKey:key andFormat:format];
+        _parking = [[Parking alloc] initWithApiKey:key andFormat:format];
+        _transit = [[Transit alloc] initWithApiKey:key andFormat:format];
+        _peopleDirectory = [[PeopleDirectory alloc] initWithApiKey:key andFormat:format];
+        _wireless = [[Wireless alloc] initWithApiKey:key andFormat:format];
+        _api = [[API alloc] initWithApiKey:key andFormat:format];
+        _server = [[Server alloc] initWithApiKey:key andFormat:format];
     }
     
     return self;

@@ -29,6 +29,7 @@
 		1E10E1862106C49E00DF7D2F /* WirelessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1852106C49E00DF7D2F /* WirelessTests.m */; };
 		1E10E1882106C66100DF7D2F /* APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1872106C66100DF7D2F /* APITests.m */; };
 		1E10E18A2106C80E00DF7D2F /* ServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1892106C80E00DF7D2F /* ServerTests.m */; };
+		1E10E18E2106CAB300DF7D2F /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E10E18D2106CAB300DF7D2F /* Shared.h */; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -112,6 +113,7 @@
 		1E10E1852106C49E00DF7D2F /* WirelessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessTests.m; sourceTree = "<group>"; };
 		1E10E1872106C66100DF7D2F /* APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APITests.m; sourceTree = "<group>"; };
 		1E10E1892106C80E00DF7D2F /* ServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerTests.m; sourceTree = "<group>"; };
+		1E10E18D2106CAB300DF7D2F /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
 		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
 		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +239,7 @@
 				1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */,
 				1EA3CD2D2103CEBA00C90823 /* Endpoints */,
 				1EA3CD122103C69700C90823 /* Info.plist */,
+				1E10E18D2106CAB300DF7D2F /* Shared.h */,
 			);
 			path = UWaterlooAPIObjc;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				1EA3CD582103CF6B00C90823 /* Building.h in Headers */,
 				1EA3CD642103CF9700C90823 /* Transit.h in Headers */,
 				1EA3CD2B2103CCA300C90823 /* Course.h in Headers */,
+				1E10E18E2106CAB300DF7D2F /* Shared.h in Headers */,
 				1EA3CD1B2103C73800C90823 /* UWAPI.h in Headers */,
 				1EA3CD1F2103CAFC00C90823 /* Endpoint.h in Headers */,
 			);
