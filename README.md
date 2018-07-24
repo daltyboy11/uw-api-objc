@@ -1,5 +1,5 @@
 # uw-api-objc
-Objective-C Client library for the [University of Waterloo Open Data API](https://github.com/uWaterloo/api-documentation)
+Objective-C Client library for the [University of Waterloo Open Data API](https://github.com/uWaterloo/api-documentation).
 
 ## Installation
 
@@ -15,7 +15,7 @@ Make sure to pass in a valid [api key](https://uwaterloo.ca/api/register) when i
 UWAPI* uwapi = [[UWAPI alloc] initWithApiKey:@"123456789"];
 ```
 
-By default, responses will be in json format, but you can choose between json and xml
+By default, responses will be in json format, but you can choose between json and xml.
 
 ```objective-c
 UWAPI* uwapi = [[UWAPI alloc] initWithApiKey:@"123456789" andFormat:ResponseFormatXml];
@@ -27,7 +27,7 @@ All endpoints are accessed through the UWAPI instance's properties, and each pro
 
 ### Examples
 
-1. Accessing the `/awards` endpoint through the `awards` property to get a list of the available undergraduate scholarships
+1. Accessing the `/awards` endpoint through the `awards` property to get a list of the available undergraduate scholarships:
 ```objective-c
 [[uwapi awards] undergraduateAwardsWithCompletion:^(NSDictionary * _Nullable response, NSError * _Nullable error) {
   // check for error
@@ -35,7 +35,7 @@ All endpoints are accessed through the UWAPI instance's properties, and each pro
 }];
 ```
 
-2. Acessing the `/courses` endpoint throught the `course` property to get schedule for CS 246
+2. Acessing the `/courses` endpoint throught the `course` property to get schedule for CS 246:
 ```objective-c
 [[uwapi course] courseScheduleForSubject:@"CS" andCatalogNumber:@"246" withCompletion:^(NSDictionary * _Nullable response, NSError * _Nullable error) {
   // check for error
@@ -44,8 +44,13 @@ All endpoints are accessed through the UWAPI instance's properties, and each pro
 ```
 
 ## Features
-1. Support for all endpoints
-2. JSON and XML response formats
+1. Support for all endpoints.
+2. JSON and XML response formats.
 
 ## Official API + Documentation
-[uWaterloo/api-documentation](https://github.com/uWaterloo/api-documentation)
+[uWaterloo/api-documentation](https://github.com/uWaterloo/api-documentation).
+
+## License
+uw-api-objc is licensed under the MIT License. See the LICENSE.md file for more information.
+
+Waterloo OpenData is licensed under [ODL (Open Data License) Agreement](https://uwaterloo.ca/open-data/university-waterloo-open-data-license-agreement-v1)
