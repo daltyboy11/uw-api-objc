@@ -29,7 +29,7 @@ All endpoints are accessed through the UWAPI instance's properties, and each pro
 
 1. Accessing the `/awards` endpoint through the `awards` property to get a list of the available undergraduate scholarships
 ```objective-c
-[uwapi awards]undergraduateAwardsWithCompletion:^(NSDictionary * _Nullable response, NSError * _Nullable error) {
+[[uwapi awards] undergraduateAwardsWithCompletion:^(NSDictionary * _Nullable response, NSError * _Nullable error) {
   // check for error
   // if error is nil, do something with response
 }];
