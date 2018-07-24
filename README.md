@@ -35,7 +35,7 @@ All endpoints are accessed through the UWAPI instance's properties, and each pro
 }];
 ```
 
-2. Acessing the /courses endpoint throught the course property to get schedule for CS 246
+2. Acessing the `/courses` endpoint throught the `course` property to get schedule for CS 246
 ```objective-c
 [[uwapi course] courseScheduleForSubject:@"CS" andCatalogNumber:@"246" withCompletion:^(NSDictionary * _Nullable response, NSError * _Nullable error) {
   // check for error
