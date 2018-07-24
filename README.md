@@ -1,5 +1,5 @@
 # uw-api-objc
-Objective-C Client library for the [University of Waterloo Open data API](https://github.com/uWaterloo/api-documentation)
+Objective-C Client library for the [University of Waterloo Open Data API](https://github.com/uWaterloo/api-documentation)
 
 ## Installation
 
@@ -23,7 +23,7 @@ UWAPI* uwapi = [[UWAPI alloc] initWithApiKey:@"123456789" andFormat:ResponseForm
 
 ## Accessing endpoints
 
-All endpoints are accessed through the UWAPI instance's properties, and each property exposes the available methods for its respective endpoint. Handling the response is done through an `(NSDictionary, NSError)` callback. The response (if there is no error), is contained in the dictionary.
+All endpoints are accessed through the UWAPI instance's properties, and each property exposes the available methods for its respective endpoint. Handling the response is done through an `(NSDictionary, NSError)` callback. The response is contained in the dictionary.
 
 ### Examples
 
