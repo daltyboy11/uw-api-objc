@@ -38,27 +38,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic, readonly) NSString*       apiKey;
 
-@property (strong, nonatomic) FoodServices*             foodServices;
-@property (strong, nonatomic) Feds*                     feds;
-@property (strong, nonatomic) Course*                   course;
-@property (strong, nonatomic) Awards*                   awards;
-@property (strong, nonatomic) Events*                   events;
-@property (strong, nonatomic) Blogs*                    blogs;
-@property (strong, nonatomic) News*                     news;
-@property (strong, nonatomic) Jobs*                     jobs;
-@property (strong, nonatomic) Services*                 services;
-@property (strong, nonatomic) Weather*                  weather;
-@property (strong, nonatomic) Terms*                    terms;
-@property (strong, nonatomic) Resources*                resources;
-@property (strong, nonatomic) Codes*                    codes;
-@property (strong, nonatomic) Building*                 buildling;
-@property (strong, nonatomic) PointsOfInterest*         pointsOfInterest;
-@property (strong, nonatomic) Parking*                  parking;
-@property (strong, nonatomic) Transit*                  transit;
-@property (strong, nonatomic) PeopleDirectory*          peopleDirectory;
-@property (strong, nonatomic) Wireless*                 wireless;
-@property (strong, nonatomic) API*                      api;
-@property (strong, nonatomic) Server*                   server;
+@property (strong, nonatomic, readonly) FoodServices*             foodServices;
+@property (strong, nonatomic, readonly) Feds*                     feds;
+@property (strong, nonatomic, readonly) Course*                   course;
+@property (strong, nonatomic, readonly) Awards*                   awards;
+@property (strong, nonatomic, readonly) Events*                   events;
+@property (strong, nonatomic, readonly) Blogs*                    blogs;
+@property (strong, nonatomic, readonly) News*                     news;
+@property (strong, nonatomic, readonly) Jobs*                     jobs;
+@property (strong, nonatomic, readonly) Services*                 services;
+@property (strong, nonatomic, readonly) Weather*                  weather;
+@property (strong, nonatomic, readonly) Terms*                    terms;
+@property (strong, nonatomic, readonly) Resources*                resources;
+@property (strong, nonatomic, readonly) Codes*                    codes;
+@property (strong, nonatomic, readonly) Building*                 buildling;
+@property (strong, nonatomic, readonly) PointsOfInterest*         pointsOfInterest;
+@property (strong, nonatomic, readonly) Parking*                  parking;
+@property (strong, nonatomic, readonly) Transit*                  transit;
+@property (strong, nonatomic, readonly) PeopleDirectory*          peopleDirectory;
+@property (strong, nonatomic, readonly) Wireless*                 wireless;
+@property (strong, nonatomic, readonly) API*                      api;
+@property (strong, nonatomic, readonly) Server*                   server;
 
 NS_ASSUME_NONNULL_END
 
