@@ -20,6 +20,15 @@
 		1E10E1742106AE2200DF7D2F /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1732106AE2200DF7D2F /* WeatherTests.m */; };
 		1E10E1762106B0BD00DF7D2F /* TermsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1752106B0BD00DF7D2F /* TermsTests.m */; };
 		1E10E1782106B3DD00DF7D2F /* ResourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */; };
+		1E10E17A2106B65F00DF7D2F /* CodesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1792106B65F00DF7D2F /* CodesTests.m */; };
+		1E10E17C2106B7D700DF7D2F /* BuildingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E17B2106B7D700DF7D2F /* BuildingTests.m */; };
+		1E10E17E2106BDFA00DF7D2F /* PointsOfInterestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E17D2106BDFA00DF7D2F /* PointsOfInterestTests.m */; };
+		1E10E1802106BFEC00DF7D2F /* ParkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E17F2106BFEC00DF7D2F /* ParkingTests.m */; };
+		1E10E1822106C2F500DF7D2F /* TransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1812106C2F500DF7D2F /* TransitTests.m */; };
+		1E10E1842106C3DD00DF7D2F /* DirectoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1832106C3DD00DF7D2F /* DirectoryTests.m */; };
+		1E10E1862106C49E00DF7D2F /* WirelessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1852106C49E00DF7D2F /* WirelessTests.m */; };
+		1E10E1882106C66100DF7D2F /* APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1872106C66100DF7D2F /* APITests.m */; };
+		1E10E18A2106C80E00DF7D2F /* ServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10E1892106C80E00DF7D2F /* ServerTests.m */; };
 		1E272EC62104EE95006156C3 /* Wireless.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E272EC42104EE95006156C3 /* Wireless.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E272EC72104EE95006156C3 /* Wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E272EC52104EE95006156C3 /* Wireless.m */; };
 		1EA3CD132103C69700C90823 /* UWaterlooAPIObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3CD112103C69600C90823 /* UWaterlooAPIObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,6 +103,15 @@
 		1E10E1732106AE2200DF7D2F /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
 		1E10E1752106B0BD00DF7D2F /* TermsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsTests.m; sourceTree = "<group>"; };
 		1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourcesTests.m; sourceTree = "<group>"; };
+		1E10E1792106B65F00DF7D2F /* CodesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodesTests.m; sourceTree = "<group>"; };
+		1E10E17B2106B7D700DF7D2F /* BuildingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildingTests.m; sourceTree = "<group>"; };
+		1E10E17D2106BDFA00DF7D2F /* PointsOfInterestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointsOfInterestTests.m; sourceTree = "<group>"; };
+		1E10E17F2106BFEC00DF7D2F /* ParkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingTests.m; sourceTree = "<group>"; };
+		1E10E1812106C2F500DF7D2F /* TransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitTests.m; sourceTree = "<group>"; };
+		1E10E1832106C3DD00DF7D2F /* DirectoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryTests.m; sourceTree = "<group>"; };
+		1E10E1852106C49E00DF7D2F /* WirelessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessTests.m; sourceTree = "<group>"; };
+		1E10E1872106C66100DF7D2F /* APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APITests.m; sourceTree = "<group>"; };
+		1E10E1892106C80E00DF7D2F /* ServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerTests.m; sourceTree = "<group>"; };
 		1E272EC42104EE95006156C3 /* Wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wireless.h; sourceTree = "<group>"; };
 		1E272EC52104EE95006156C3 /* Wireless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wireless.m; sourceTree = "<group>"; };
 		1EA3CD0E2103C69600C90823 /* UWaterlooAPIObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UWaterlooAPIObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +185,15 @@
 		1E10E1582104F48400DF7D2F /* UWaterlooAPIObjcTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E10E1892106C80E00DF7D2F /* ServerTests.m */,
+				1E10E1872106C66100DF7D2F /* APITests.m */,
+				1E10E1852106C49E00DF7D2F /* WirelessTests.m */,
+				1E10E1832106C3DD00DF7D2F /* DirectoryTests.m */,
+				1E10E1812106C2F500DF7D2F /* TransitTests.m */,
+				1E10E17F2106BFEC00DF7D2F /* ParkingTests.m */,
+				1E10E17D2106BDFA00DF7D2F /* PointsOfInterestTests.m */,
+				1E10E17B2106B7D700DF7D2F /* BuildingTests.m */,
+				1E10E1792106B65F00DF7D2F /* CodesTests.m */,
 				1E10E1772106B3DD00DF7D2F /* ResourcesTests.m */,
 				1E10E1752106B0BD00DF7D2F /* TermsTests.m */,
 				1E10E1732106AE2200DF7D2F /* WeatherTests.m */,
@@ -397,16 +424,25 @@
 			files = (
 				1E10E15A2104F48400DF7D2F /* FedsTests.m in Sources */,
 				1E10E16E2105F6B400DF7D2F /* NewsTests.m in Sources */,
+				1E10E18A2106C80E00DF7D2F /* ServerTests.m in Sources */,
+				1E10E1822106C2F500DF7D2F /* TransitTests.m in Sources */,
 				1E10E1762106B0BD00DF7D2F /* TermsTests.m in Sources */,
+				1E10E17C2106B7D700DF7D2F /* BuildingTests.m in Sources */,
+				1E10E1842106C3DD00DF7D2F /* DirectoryTests.m in Sources */,
 				1E10E16821054CEE00DF7D2F /* AwardsTests.m in Sources */,
+				1E10E17A2106B65F00DF7D2F /* CodesTests.m in Sources */,
 				1E10E1722105F9F500DF7D2F /* ServicesTests.m in Sources */,
 				1E10E1642105305400DF7D2F /* FoodServicesTests.m in Sources */,
+				1E10E1802106BFEC00DF7D2F /* ParkingTests.m in Sources */,
 				1E10E16C2105500500DF7D2F /* BlogsTests.m in Sources */,
 				1E10E1742106AE2200DF7D2F /* WeatherTests.m in Sources */,
 				1E10E16A21054DFE00DF7D2F /* EventsTests.m in Sources */,
+				1E10E17E2106BDFA00DF7D2F /* PointsOfInterestTests.m in Sources */,
 				1E10E1782106B3DD00DF7D2F /* ResourcesTests.m in Sources */,
 				1E10E166210536EA00DF7D2F /* CourseTests.m in Sources */,
 				1E10E1702105F85800DF7D2F /* JobsTests.m in Sources */,
+				1E10E1882106C66100DF7D2F /* APITests.m in Sources */,
+				1E10E1862106C49E00DF7D2F /* WirelessTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
